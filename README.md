@@ -23,6 +23,4 @@ mvn clean compile
 
 # To Run test cases in parallel mode
 
-mvn clean install -PTEST -DsuiteType=group -DThreadCount=5
-
-
+ mvn clean install -PTEST -DTag=sanity -DThreadCount=1
