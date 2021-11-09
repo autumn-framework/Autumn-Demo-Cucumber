@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="classes" name="Test Suite" verbose="10">
+  <listeners>
+    <listener class-name="com.autumn.reporting.listeners.RetryListener"/>
+  </listeners>
+  <test thread-count="1" parallel="classes" name="Test Suite" verbose="10">
+    <packages>
+      <package name="basePackage.*"/>
+    </packages>
+  </test> <!-- Test Suite -->
+</suite> <!-- Test Suite -->

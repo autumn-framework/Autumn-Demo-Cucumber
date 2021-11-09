@@ -1,3 +1,10 @@
+/target/
+/bin/
+/.idea/
+src/main/main.iml
+src/test/test.iml
+Autumn-Demo-Cucumber.iml
+
 # Compiled class file
 *.class
 
